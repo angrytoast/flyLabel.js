@@ -44,7 +44,7 @@
       this._input = _findInput($element);
       this._label = _findLabel($element);
 
-      // Use the init options.
+      // Use the init options, and extend them over the defaults.
       this.options = $.extend(true, defaults, options);
 
       // Do it now.
